@@ -13,7 +13,7 @@ export function WPFleet(/** @type {string} */ name) {
     },
 
     output: {
-      dir: 'trunk/assets/bundle',
+      dir: 'dist/assets/bundle',
       entryFileNames: '[name].js',
       format: 'iife'
     },
