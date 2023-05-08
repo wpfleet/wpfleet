@@ -14,6 +14,10 @@ cp src trunk/
 cp vendor trunk/
 
 cp wpfleet.php trunk/
+
+cp LICENSE.txt trunk/
+
+cp readme.txt trunk/
 # ==========================
 
 # Package plugin files
