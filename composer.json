@@ -1,0 +1,17 @@
+{
+  "name": "wpfleet/wpfleet",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Christian Ezeani",
+      "email": "christian.ezeani@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "WPFleet\\": "dist/classes/"
+    }
+  },
+  "require": {}
+}

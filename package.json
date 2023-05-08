@@ -1,0 +1,33 @@
+{
+  "name": "wpfleet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rollup -c -w",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:wpfleet/wpfleet.git"
+  },
+  "author": "Christian Ezeani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wpfleet/wpfleet/issues"
+  },
+  "homepage": "https://github.com/wpfleet/wpfleet#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/plugin-external-helpers": "^7.18.6",
+    "@babel/preset-env": "^7.20.2",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-replace": "^5.0.2",
+    "@rollup/plugin-terser": "^0.4.0",
+    "node-sass": "^8.0.0",
+    "rollup": "^3.19.1",
+    "rollup-plugin-postcss": "^4.0.2"
+  }
+}
